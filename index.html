@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav> 
+            <ul>
+                <li><a href="index.html" data-key="nav-home">Home</a></li>
+                <li><a href="AFood.html" data-key="nav-food">Food</a></li>
+                <li><a href="Attractions.html" data-key="nav-attractions">Attractions</a></li>
+                <li><a href="music.html" data-key="nav-music">Music</a></li>
+                <li><a href="streets.html" data-key="nav-streets">Streets</a></li>
+                <li><a href="Form.html" data-key="nav-book">Book now</a></li>
+                <li><a href="Qr-Code.html" data-key="nav-qr">Contact Us</a></li>
+                
+                
+                <li class="lang-selector">
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="ar">العربية (Arabic)</option>
+                        <option value="ru">Русский (Russian)</option>
+                        <option value="de">Deutsch (German)</option>
+                        <option value="fr">Français (French)</option>
+                    </select>
+                </li>
+            </ul>      
+        </nav>
+    </header>  
+    
+    <main>
+        <h1 data-key="main-heading">Information about Egypt</h1>
+
+        <video id="my-video" loop muted autoplay controls> 
+            <source id="pr" src="pyramids.mp4.zmdownload" type="video/mp4">
+        </video>
+
+        <p data-key="main-text">Egypt is a transcontinental country in Northeast Africa with a rich history, famous for its ancient civilization, the pyramids, and its capital city, Cairo. While its land area is vast, most of its over 100 million people live along the Nile River and its delta, as much of the rest of the country is desert. Modern Egypt has an economy driven by industries like tourism, agriculture, and textiles, and its cultural heritage is shaped by its ancient past as well as its more recent history as a hub for Christianity and then Islam.</p>
+
+        <h3><a href="https://en.wikipedia.org/wiki/Egypt" class="click" data-key="click-me">click me</a></h3>
+
+        <img class="egy" src="egypt-flag-background-illustration-texture_894218-317.avif" alt="home">
+    </main>   
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

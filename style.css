@@ -1,0 +1,279 @@
+body {
+    background-color: rgb(255, 218, 185);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+   color: gray;
+
+
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+
+color: gray;
+
+
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+color: gray;
+
+
+}
+a{
+
+   color: black;
+
+
+}
+
+nav ul {
+
+background-color: rgb(244, 164, 96);
+border-radius: 15px;
+border-color :saddlebrown ;
+border-style: solid ;
+padding: 10px;
+}
+nav ul li {
+
+list-style-type: none;
+display: inline;
+margin-left:10px ;
+margin-right: 10px;
+color: black;
+
+
+
+}
+
+
+
+nav ul li a {
+
+color: black;
+
+
+
+
+
+
+
+}
+
+img {
+
+    border-radius: 30px;
+    width: 550px;
+}
+
+#my-video{
+
+min-width: 20%;
+
+min-height: 20%;
+
+position: static;
+
+top: 10;
+
+bottom: 0;
+
+right: 0;
+
+left: 10;
+}
+.zalabia{
+    height: 500px;
+}
+.harp{
+    height: 500px;
+}
+#pr {
+    width: 50000px;
+    display: flex;
+    border-radius: 30%;
+
+}
+
+.sc{
+    border-radius: 6%;
+}
+.lang-selector {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#language-select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid saddlebrown;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+/* Center the container holding the video */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers everything horizontally */
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the video to sit perfectly in the middle */
+#my-video {
+    display: block;
+    margin: 20px auto;   /* Automatically centers it horizontally */
+    width: 80%;          /* Controls how wide the video is on the page */
+    max-width: 800px;    /* Prevents the video from becoming too huge on big monitors */
+    border-radius: 15px; /* Optional: rounds the corners beautifully */
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3); /* Optional: adds a nice drop shadow */
+}
+
+/* Ensure the flag image also stays neat and centered */
+.egy {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    width: 200%;
+}
+video#my-video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 100%;
+}
+.egy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.egy {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px; 
+    height: auto;     
+    border-radius: 10px; 
+}
+/* Modern Animations */
+body {
+    animation: fadeInBody 1s ease-in-out;
+}
+
+@keyframes fadeInBody {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1, h2, h3 {
+    animation: slideDown 1s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav ul {
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+nav ul:hover {
+    transform: scale(1.02);
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: color 0.3s ease, letter-spacing 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: white;
+    letter-spacing: 1px;
+}
+
+img, video {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover, video:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+button, select {
+    transition: all 0.3s ease;
+}
+
+button:hover, select:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+main > * {
+    animation: fadeUp 1s ease;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.floating-qr{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    transition: 0.3s;
+}
+
+.floating-qr img{
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.floating-qr img:hover{
+    opacity: 1;
+    transform: scale(1.08);
+}
+.floating-qr{
+    mix-blend-mode: difference;
+}
+.QR{ 
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
